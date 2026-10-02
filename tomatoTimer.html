@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>tomatoTimer now </title>
+    <title>tomatoTimer </title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    hello!!!
-
-    hellov2
-
-    something
-    <script>
-      
-    </script>
+    <p>Stopwatch</p>
+    <div class="container">
+        <div class="display">
+          00:00:00
+        </div>
+        <div class="controls">
+            <button class="start-btn" onclick="start()">Start</button>
+            <button class="stop-btn" onclick="stop()">Stop</button>
+            <button class="reset-btn" onclick="reset()">Reset</button>
+        </div>
+    </div>
+    <script src="code.js"> </script>
   </body>
 </html>
