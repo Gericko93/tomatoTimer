@@ -1,0 +1,69 @@
+.timer-configuration-buttons {
+  display:flex;
+  margin-top:20px;
+}
+.timer-configuration-buttons button{
+  border:1px solid hsl(194, 65%, 38%);
+  background-color: hsl(194, 65%, 48%);
+  cursor:pointer;
+  padding:10px 40px;
+  font-weight:bold;
+  color:white;
+  transition: background-color 0.15s;
+  box-shadow:inset 0px 1px 0px rgba(255,255,255,0.5)
+}
+.timer-configuration-buttons button:hover{
+  background-color: hsl(194, 65%, 38%);
+}
+
+.timer{
+  margin-top:30px;
+  font-size:90px;
+  font-weight:bold;
+}
+
+.timer-controls{
+  margin-top:50px;
+  display:flex;
+  flex-direction:row;
+  column-gap:50px;
+}
+.timer-controls button{
+  padding:20px 35px;
+  font-size:16px;
+  cursor:pointer;
+  transition:background-color 0.15s;
+  border-radius:4px;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.7);
+}
+
+.start{
+  background-color:hsl(93, 65%, 39%);
+  border:1px solid hsl(93, 65%, 19%);
+}
+.start:hover{
+  background-color:hsl(93, 65%, 29%);
+}
+
+.stop{
+  background-color:hsl(359, 86%, 42%);
+  border:1px solid hsl(359, 86%, 22%);
+
+}
+.stop:hover{
+  background-color:hsl(359, 86%, 32%);
+}
+
+.start, .stop {
+  font-weight:bold;
+  color:white;
+}
+.reset{
+  background-color:hsl(0, 0%, 91%);
+  border:1px solid hsl(0, 0%, 71%);
+
+}
+.reset:hover{
+  background-color:hsl(0, 0%, 82%);
+}
+

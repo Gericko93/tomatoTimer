@@ -2,13 +2,18 @@
 <html>
   <head>
     <title>tomatoTimer</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="pomodoro.css">
   </head>
   <body>
     <div class="toptal-header">
-      <div class="adquired">
-        This site has been acquired by <a><span class="toptal">Gerson</span></a>
+      <div class="icon-adquired">
+        <img src="icons/info-icon.png">
+        <div class="adquired">
+          This site has been acquired by <a href="https://www.youtube.com/" target="_blank"><span class="toptal">Gerson</span></a>
+        </div>
       </div>
+
       <div class="learn-more">
         Learn more
       </div>
@@ -17,13 +22,31 @@
       <div class="tomato-title">
         TomatoTimer
       </div>
-      <div>
+      <div class="extra-buttons">
         <button class="log js-log">Log</button>
         <button class="faq js-faq">FAQ</button>
         <button class="setting js-settings">Settings</button>
-        <a href="www.youtube.com"><button class="log js-log">Tweet about us!</button></a>
+        <a href="www.youtube.com"><button class="tweet js-tweet">Tweet about us!</button></a>
       </div>
+
     </div>
+      <div class="timer-configuration-buttons">
+        <button class="pomodoro">Pomodoro</button>
+        <button class="break">Break</button>
+      </div>
+      <div class="timer js-timer">
+        50:00
+      </div>
+      <div class="timer-controls">
+        <button class="start" onclick="start()">Start</button>
+        <button class="stop" onclick="stop()">Stop</button>
+        <button class="reset" onclick="reset()">Reset</button>
+      </div>
+      <div class="various-information">
+        <div>Keyboard Shortcuts</div>
+        <div>Notifications</div>
+        <div>Settings</div>
+      </div>
     <script src="code.js"></script>
   </body>
 </html>

@@ -1,0 +1,81 @@
+body {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  font-family:Arial;
+  margin:0;
+}
+
+.toptal-header{
+  box-sizing:border-box;
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  background-color:hsl(224, 73%, 47%);
+  padding:15px 40px;
+  align-items: center;
+  color:white;
+  font-size:12px;
+}
+
+.tomato-container{
+  box-sizing:border-box;
+  width:100%;
+  height:100px;
+  background-color:hsl(0, 0%, 95%);
+  border:solid 1px hsl(0, 0%, 80%);
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-between;
+  padding: 0 100px;
+}
+.tomato-title{
+  font-size:34px;
+  font-weight:bold;
+  flex:1;
+}
+.extra-buttons button{
+  text-wrap: nowrap;
+  border:none;
+  background-color:hsl(0, 0%, 30%);
+  color:hsl(0, 0%, 80%);
+  padding:10px;
+  font-size:14px;
+  cursor:pointer;
+  border-right:1px solid hsl(0, 0%, 50%);
+  flex:1
+}
+.tweet{
+  flex:2;
+}
+.extra-buttons button:hover{
+  background-color:hsl(0, 0%, 20%);
+}
+.extra-buttons{
+  display:flex;
+  margin:0;
+  padding:0;
+  justify-content:right;
+  flex:2;
+  margin-left:100px;
+}
+.icon-adquired{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  column-gap:10px;
+  font-size:13px;
+}
+.adquired a{
+  text-decoration: none;
+  color:white;
+}
+.toptal, .learn-more{
+  font-weight:bold;
+  cursor:pointer;
+}
+.learn-more{
+  font-size:14px;
+}
