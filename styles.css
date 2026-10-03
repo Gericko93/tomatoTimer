@@ -2,56 +2,39 @@ body {
   display:flex;
   flex-direction:column;
   align-items:center;
-  background-color:hsl(240,100%,95%);
+  font-family:Arial;
+  margin:0;
 }
-p{
-  font-size:4rem;
-  font-family: Arial, sans-serif;
-}
-.container{
+
+.toptal-header{
+  box-sizing:border-box;
+  width:100%;
   display:flex;
-  flex-direction:column;
-  align-items:center;
-  border: 5px solid;
-  border-radius:50px;
-  padding:30px;
-  background-color:white;
-}
-.display{
-  font-size: 5rem;
-  font-family:monospace;
-  font-weight:bold;
-  color:hsl(0,0%,30%);
-  text-shadow:2px 2px 2px hsl(0, 0%, 0%,0.75);
-  margin-bottom:25px;
-}
-.controls button {
-  font-size:1.5rem;
-  font-weight:bold;
-  padding:10px 20px;
-  margin:5px;
-  min-width:125px;
-  border:none;
-  border-radius:10px;
-  cursor:pointer;
+  flex-direction:row;
+  justify-content: space-between;
+  background-color:hsl(224, 73%, 47%);
+  padding:15px 40px;
+  align-items: center;
   color:white;
-  transition:background-color 0.15s;
+  font-size:12px;
 }
-.start-btn{
-  background-color:hsl(115,100%,40%);
+.toptal, .learn-more{
+  font-weight:bold;
 }
-.start-btn:hover{
-  background-color:hsl(115,100%,30%);
+
+.tomato-container{
+  box-sizing:border-box;
+  width:100%;
+  height:100px;
+  background-color:hsl(0, 0%, 95%);
+  border:solid 1px hsl(0, 0%, 80%);
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-between;
+  padding: 0 40px;
 }
-.stop-btn{
-  background-color:hsl(0, 100%, 40%);
-}
-.stop-btn:hover{
-  background-color:hsl(0, 100%, 30%);
-}
-.reset-btn{
-  background-color:hsl(222, 100%, 40%);
-}
-.reset-btn:hover{
-  background-color:hsl(222, 100%, 30%);
+.tomato-title{
+  font-size:34px;
+  font-weight:bold;
 }
